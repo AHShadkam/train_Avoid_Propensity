@@ -83,7 +83,7 @@ def makemydir(whatever):
         pass
 
 
-data = pd.read_csv("symptom_data.csv", header=0, quoting=3)
+data = pd.read_csv("train_data.csv", header=0, quoting=3)
 data =data[data['coverage'].apply(_filter_by_coverage)]
 data =data[data['symptoms'].apply(_filter_by_recalls)]
 
