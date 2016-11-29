@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import nltk
 import re
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.externals import joblib
 
@@ -53,7 +54,7 @@ def _tokenize_and_stem(text):
         
 
 ## Read and trim data
-data = pd.read_csv("symptom_data.csv", header=0, quoting=3)
+
 
 def _filter_by_coverage(coverage):
     if str(coverage).upper() in set(['IW', 'SP']):
@@ -79,7 +80,7 @@ def _filter_by_domain(domain,selected_domain):
     else:
         return False  
   
-
+data = pd.read_csv("symptom_data.csv", header=0, quoting=3)
 data =data[data['coverage'].apply(_filter_by_coverage)]
 data =data[data['symptoms'].apply(_filter_by_recalls)]
 
@@ -96,8 +97,6 @@ vocab = [_tokenize_and_stem(i) for i in data['symptoms']]
 tfidf_vectorizer = TfidfVectorizer(max_features=3000, tokenizer = None, use_idf=True, ngram_range=(1,3))
 tfidf_matrix = tfidf_vectorizer.fit_transform(vocab)
 # tfidf_vectorizer.vocabulary_
-
-import os
 
 def makemydir(whatever):
     try:
