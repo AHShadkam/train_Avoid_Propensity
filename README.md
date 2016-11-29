@@ -8,4 +8,5 @@ provide training data with the following attributes:
 * age
 * model
 * brand
+* result = {AWD,SOC}
 
