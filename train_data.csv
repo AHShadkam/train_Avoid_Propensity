@@ -1,0 +1,300 @@
+domain,symptoms,coverage
+Washer,my WASHER PORTION NOT DRAINING,IW
+Washer,CYCLE,SP
+Dish,cleaning,CC
+Refrigeration,no ice made,IW
+Cooking,information on model,SP
+LawnGarden,not starting,CC
+Washer,cleaning,IW
+Refrigeration,door bin broke,SP
+Washer,dd,CC
+Refrigeration,ICE IN FREEZER,IW
+Refrigeration,not cooling,SP
+Dish,adj,CC
+Cooking,not working,IW
+Washer,recall on so 41109616 will not run,SP
+Dish,noise,CC
+Cooking,NOT HEATING ENOUGH,IW
+LawnGarden,runs rough,SP
+Dryer,burning odor,CC
+Refrigeration,BIN,IW
+Dryer,af,SP
+Cooking,smell,CC
+Washer,cleaning,IW
+Cooking,door is dirty,SP
+Refrigeration,NDCS/inside liner cracked,CC
+Refrigeration,shelf,IW
+Washer,suds,SP
+Washer,soap left in clothes,CC
+Electronics,not ejecting,IW
+Washer,clothes,SP
+Dryer,error code cl,CC
+Washer,cl,IW
+Refrigeration,not producing ice,SP
+Washer,not agitating,CC
+Refrigeration,no water or ice,IW
+Dryer,lint screen,SP
+Refrigeration,door,CC
+Refrigeration,Bin,IW
+Dryer,vent hose,SP
+Washer,not fiiling,CC
+Washer,Not aggitating,IW
+Dryer,info,SP
+Dish,heating,CC
+Dish,NOT DRAINING,IW
+LawnGarden,runs rough,SP
+Refrigeration,DOOR NOT OPENING,CC
+Washer,not spinning,IW
+Refrigeration,makes a buzzing sound of and on,SP
+Cooking,error,CC
+LawnGarden,not start,IW
+Washer,noise,SP
+Refrigeration,lilltle ice,CC
+Washer,NOT STARTING,IW
+Washer,NOT SPINNING,SP
+LawnGarden,starting,CC
+Washer,no power,IW
+Refrigeration,ice maker not working,SP
+Refrigeration,ice maker,CC
+LawnGarden,info,IW
+Cooking,mwo-power cord,SP
+Washer,not starting,CC
+Washer,info,IW
+Washer,NOT WORKING,SP
+Refrigeration,making noise,CC
+Dryer,NOT HEATING,IW
+Cooking,,IW
+Dryer,too long,SP
+Washer,streaks on cloths,CC
+Refrigeration,MWO,IW
+LawnGarden,change,SP
+Electronics,SCREEN,CC
+Washer,starting,IW
+Refrigeration,a,SP
+Washer,clothes coming out too wet,CC
+LawnGarden,flat trire,IW
+Dryer,noise,SP
+Dryer,not starting,CC
+Refrigeration,demo,IW
+Cooking,clicking,SP
+Washer,clothes not being cleaned,CC
+Refrigeration,handle,IW
+Cooking,error code,SP
+HVAC,not heating,CC
+LawnGarden,not starting,IW
+Refrigeration,NDCS/no water or ice/ panel locked,SP
+Dryer,air dry,CC
+Dish,leaking water from door,IW
+Refrigeration,drawer cracked,SP
+LawnGarden,.,CC
+Refrigeration,REFRIG- FRAME ON LONG DRAWER CRACKED,IW
+Dish,.,SP
+Washer,leaking on door,CC
+LawnGarden,bagger not working,IW
+Dish,adjsuter is broken,SP
+Dryer,door not closing,CC
+Refrigeration,not cooling,IW
+Dryer,heating,SP
+Dish,dishes not coming out clean,CC
+Washer,water line,IW
+Refrigeration,broken,SP
+kai_prj_nm,kai_srh_tms,CC
+Washer,WASHER PORTION NOT DRAINING,IW
+Washer,CYCLE,SP
+Dish,cleaning,CC
+Refrigeration,no ice made,IW
+Cooking,information on model,SP
+LawnGarden,not starting,CC
+Washer,cleaning,IW
+Refrigeration,door bin broke,SP
+Washer,dd,CC
+Refrigeration,ICE IN FREEZER,IW
+Refrigeration,not cooling,SP
+Dish,adj,CC
+Cooking,not working,IW
+Washer,recall on so 41109616 will not run,SP
+Dish,noise,CC
+Cooking,NOT HEATING ENOUGH,IW
+LawnGarden,runs rough,SP
+Dryer,burning odor,CC
+Refrigeration,BIN,IW
+Dryer,af,SP
+Cooking,smell,CC
+Washer,cleaning,IW
+Cooking,door is dirty,SP
+Refrigeration,NDCS/inside liner cracked,CC
+Refrigeration,shelf,IW
+Washer,suds,SP
+Washer,soap left in clothes,CC
+Electronics,not ejecting,IW
+Washer,clothes,IW
+Dryer,error code cl,SP
+Washer,cl,CC
+Refrigeration,not producing ice,IW
+Washer,not agitating,SP
+Refrigeration,no water or ice,CC
+Dryer,lint screen,IW
+Refrigeration,door,SP
+Refrigeration,Bin,CC
+Dryer,vent hose,IW
+Washer,not fiiling,SP
+Washer,Not aggitating,CC
+Dryer,info,IW
+Dish,heating,SP
+Dish,NOT DRAINING,CC
+LawnGarden,runs rough,IW
+Refrigeration,DOOR NOT OPENING,SP
+Washer,not spinning,CC
+Refrigeration,makes a buzzing sound of and on,IW
+Cooking,error,SP
+LawnGarden,not start,CC
+Washer,noise,IW
+Refrigeration,lilltle ice,SP
+Washer,NOT STARTING,CC
+Washer,NOT SPINNING,IW
+LawnGarden,starting,SP
+Washer,no power,CC
+Refrigeration,ice maker not working,IW
+Refrigeration,ice maker,SP
+LawnGarden,info,CC
+Cooking,mwo-power cord,IW
+Washer,not starting,SP
+Washer,info,CC
+Washer,NOT WORKING,IW
+Refrigeration,making noise,SP
+Dryer,NOT HEATING,CC
+Cooking,,IW
+Dryer,too long,SP
+Washer,streaks on cloths,CC
+Refrigeration,MWO,IW
+LawnGarden,change,SP
+Electronics,SCREEN,CC
+Washer,starting,IW
+Refrigeration,a,SP
+Washer,clothes coming out too wet,CC
+LawnGarden,flat trire,IW
+Dryer,noise,SP
+Dryer,not starting,CC
+Refrigeration,demo,IW
+Cooking,clicking,SP
+Washer,clothes not being cleaned,CC
+Refrigeration,handle,IW
+Cooking,error code,SP
+HVAC,not heating,CC
+LawnGarden,not starting,IW
+Refrigeration,NDCS/no water or ice/ panel locked,SP
+Dryer,air dry,CC
+Dish,leaking water from door,IW
+Refrigeration,drawer cracked,SP
+LawnGarden,.,CC
+Refrigeration,REFRIG- FRAME ON LONG DRAWER CRACKED,IW
+Dish,.,SP
+Washer,leaking on door,CC
+LawnGarden,bagger not working,IW
+Dish,adjsuter is broken,IW
+Dryer,door not closing,SP
+Refrigeration,not cooling,CC
+Dryer,heating,IW
+Dish,dishes not coming out clean,SP
+Washer,water line,CC
+Refrigeration,broken,IW
+kai_prj_nm,kai_srh_tms,SP
+Washer,WASHER PORTION NOT DRAINING,CC
+Washer,CYCLE,IW
+Dish,cleaning,SP
+Refrigeration,no ice made,CC
+Cooking,information on model,IW
+LawnGarden,not starting,SP
+Washer,cleaning,CC
+Refrigeration,door bin broke,IW
+Washer,dd,SP
+Refrigeration,ICE IN FREEZER,CC
+Refrigeration,not cooling,IW
+Dish,adj,SP
+Cooking,not working,CC
+Washer,recall on so 41109616 will not run,IW
+Dish,noise,SP
+Cooking,NOT HEATING ENOUGH,CC
+LawnGarden,runs rough,IW
+Dryer,burning odor,SP
+Refrigeration,BIN,CC
+Dryer,af,IW
+Cooking,smell,SP
+Washer,cleaning,CC
+Cooking,door is dirty,IW
+Refrigeration,NDCS/inside liner cracked,SP
+Refrigeration,shelf,CC
+Washer,suds,IW
+Washer,soap left in clothes,SP
+Electronics,not ejecting,CC
+Washer,clothes,IW
+Dryer,error code cl,SP
+Washer,cl,CC
+Refrigeration,not producing ice,IW
+Washer,not agitating,SP
+Refrigeration,no water or ice,CC
+Dryer,lint screen,IW
+Refrigeration,door,SP
+Refrigeration,Bin,CC
+Dryer,vent hose,IW
+Washer,not fiiling,SP
+Washer,Not aggitating,CC
+Dryer,info,IW
+Dish,heating,SP
+Dish,NOT DRAINING,CC
+LawnGarden,runs rough,IW
+Refrigeration,DOOR NOT OPENING,SP
+Washer,not spinning,CC
+Refrigeration,makes a buzzing sound of and on,IW
+Cooking,error,SP
+LawnGarden,not start,CC
+Washer,noise,IW
+Refrigeration,lilltle ice,SP
+Washer,NOT STARTING,CC
+Washer,NOT SPINNING,IW
+LawnGarden,starting,SP
+Washer,no power,CC
+Refrigeration,ice maker not working,IW
+Refrigeration,ice maker,IW
+LawnGarden,info,SP
+Cooking,mwo-power cord,CC
+Washer,not starting,IW
+Washer,info,SP
+Washer,NOT WORKING,CC
+Refrigeration,making noise,IW
+Dryer,NOT HEATING,SP
+Cooking,,CC
+Dryer,too long,IW
+Washer,streaks on cloths,SP
+Refrigeration,MWO,CC
+LawnGarden,change,IW
+Electronics,SCREEN,SP
+Washer,starting,CC
+Refrigeration,a,IW
+Washer,clothes coming out too wet,SP
+LawnGarden,flat trire,CC
+Dryer,noise,IW
+Dryer,not starting,SP
+Refrigeration,demo,CC
+Cooking,clicking,IW
+Washer,clothes not being cleaned,SP
+Refrigeration,handle,CC
+Cooking,error code,IW
+HVAC,not heating,SP
+LawnGarden,not starting,CC
+Refrigeration,NDCS/no water or ice/ panel locked,IW
+Dryer,air dry,SP
+Dish,leaking water from door,CC
+Refrigeration,drawer cracked,IW
+LawnGarden,.,SP
+Refrigeration,REFRIG- FRAME ON LONG DRAWER CRACKED,CC
+Dish,.,IW
+Washer,leaking on door,SP
+LawnGarden,bagger not working,CC
+Dish,adjsuter is broken,IW
+Dryer,door not closing,SP
+Refrigeration,not cooling,CC
+Dryer,heating,IW
+Dish,dishes not coming out clean,SP
+Washer,water line,CC
+Refrigeration,broken,IW
