@@ -16,7 +16,7 @@ nltk.data.path.append('./nltk_data/')
 
 
 stopwords = nltk.corpus.stopwords.words('english')
-stopwords.extend(['ndcs', 'ndc', 'dcs','NDCS'])
+stopwords.extend(['ndcs', 'ndc', 'dcs'])
 # This is important in bi and trigrams!
 removelist = ['not','no','in','out','on','off','under','below','down','too']
 [stopwords.remove(element) for element in removelist if element in stopwords]
