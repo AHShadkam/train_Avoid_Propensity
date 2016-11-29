@@ -9,11 +9,7 @@ from sklearn.externals import joblib
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
 
-
-
 nltk.data.path.append('./nltk_data/')
-
-
 
 stopwords = nltk.corpus.stopwords.words('english')
 stopwords.extend(['ndcs', 'ndc', 'dcs'])
@@ -79,7 +75,14 @@ def _filter_by_domain(domain,selected_domain):
         return True
     else:
         return False  
-  
+
+def makemydir(whatever):
+    try:
+        os.makedirs(whatever)
+    except OSError:
+        pass
+
+
 data = pd.read_csv("symptom_data.csv", header=0, quoting=3)
 data =data[data['coverage'].apply(_filter_by_coverage)]
 data =data[data['symptoms'].apply(_filter_by_recalls)]
@@ -97,13 +100,6 @@ vocab = [_tokenize_and_stem(i) for i in data['symptoms']]
 tfidf_vectorizer = TfidfVectorizer(max_features=3000, tokenizer = None, use_idf=True, ngram_range=(1,3))
 tfidf_matrix = tfidf_vectorizer.fit_transform(vocab)
 # tfidf_vectorizer.vocabulary_
-
-def makemydir(whatever):
-    try:
-        os.makedirs(whatever)
-    except OSError:
-        pass
-
 
 dir_to_dump='Data-{domain}'.format(domain=selected_domain)
 makemydir(dir_to_dump)
