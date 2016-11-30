@@ -9,5 +9,7 @@ provide training data with the following attributes:
 * month = {1,2, ... ,12}
 * model
 * brand
-* result = {AWD,SOC}
+* 7day_stick = {NULL,1}
+
+
 
