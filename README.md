@@ -2,10 +2,11 @@
 create trained ML algorithm for Avoid Propensity.
 ## train data
 provide training data with the following attributes:
-* domain
+* domain = {'Refrigeration','Washer','Dryer','Cooking','LawnGarden'}
 * symptoms
-* coverage
+* coverage = {'Iw','SP'}
 * age
+* month = {1,2, ... ,12}
 * model
 * brand
 * result = {AWD,SOC}
