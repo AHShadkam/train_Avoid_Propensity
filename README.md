@@ -11,7 +11,11 @@ provide training data with the following attributes:
 * brand
 * 7day_stick = {0,1}
 
-## input data
+input data can be obtained from AD_funnel.  
+[TRYQAXHIBSQL1].[Source_data].[reports].[VIEW_AD_funnel]  
+Update the query with your the desired domain and Date interval. 
+create CSV file "symptom_data.csv".
+
 
 ```sql
 SELECT TOP 1000
