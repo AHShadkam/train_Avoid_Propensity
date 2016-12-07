@@ -13,6 +13,7 @@ provide training data with the following attributes:
 
 ## input data
 
+'''sql
 SELECT TOP 1000
       [mds_dm_ds] as domain
       ,[SES_STA_DT]
@@ -35,6 +36,6 @@ SELECT TOP 1000
   AND ((PM_CHK_FL is NULL) OR (PM_CHK_FL != 'P'))
   AND ((svc_atp_no is NULL) OR (svc_atp_no < 2))
   AND lower(SVC_REQ) not like '%recall%'
-
+'''
 
 
