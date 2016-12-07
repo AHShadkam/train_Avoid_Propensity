@@ -6,7 +6,7 @@ provide training data with the following attributes:
 * symptoms
 * coverage = {'IW','SP'}
 * age: in months
-* month = {1,2, ... ,12}
+* month = {1,2, ... ,12} 
 * model
 * brand
 * result = {0,1} (it is 1 if resolve sticks for 7 days)
@@ -42,5 +42,10 @@ SELECT TOP 1000
   AND ((svc_atp_no is NULL) OR (svc_atp_no < 2))
   AND lower(SVC_REQ) not like '%recall%'
 ```
-
+## output
+The code will generate 3 folders:  
+* tfidf_vectorizer: contains the trained algorithm to handle symptom text
+* gl_vectorizer: contains the algorithm to clean, modify and vectorize {'brand','model','coverage','age'}
+* std_scale: contains the algorithm to standardize 'month' input. 
+* clf: contains the trained random forest algorithm
 
