@@ -140,11 +140,11 @@ forest = forest.fit( X_train, data['result'] )
 # save the trained algorithms
 dir_to_dump='tfidf_vectorizer'
 makemydir(dir_to_dump)
-joblib.dump(tfidf_vectorizer,'tf_idf_vectorizer/tfidf_vectorizer.pkl') 
+joblib.dump(tfidf_vectorizer,'tfidf_vectorizer/tfidf_vectorizer.pkl') 
 
 dir_to_dump='gl_vectorizer'
 makemydir(dir_to_dump)
-joblib.dump(vectorizer,'gl_vectorizer/vectorizer_age_buckets.pkl')
+joblib.dump(gl_vectorizer,'gl_vectorizer/vectorizer_age_buckets.pkl')
 
 dir_to_dump='std_scale'
 makemydir(dir_to_dump)
