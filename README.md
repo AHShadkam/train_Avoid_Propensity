@@ -1,7 +1,7 @@
 # train_Avoid_Propensity
 create trained ML algorithm for Avoid Propensity by running the train_domain.py code.
 ## train data
-provide training data with the following attributes:
+first we need to provide training data with the following attributes:
 * domain: one of the following domains {Refrigeration, Washer, Dryer, Cooking, LawnGarden}
 * symptoms
 * coverage = {'IW','SP'}
