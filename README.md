@@ -2,7 +2,7 @@
 create trained ML algorithm for Avoid Propensity by running the train_domain.py code.
 ## train data
 provide training data with the following attributes:
-* domain: one of the following domains {'Refrigeration','Washer','Dryer','Cooking','LawnGarden'}
+* domain: one of the following domains {Refrigeration, Washer, Dryer, Cooking, LawnGarden}
 * symptoms
 * coverage = {'IW','SP'}
 * age: in months
@@ -11,8 +11,9 @@ provide training data with the following attributes:
 * brand
 * result = {0,1} (it is 1 if resolve sticks for 7 days)
 
-input-data can be obtained from AD_funnel.  
+input-data can be obtained from AD_funnel:   
 [TRYQAXHIBSQL1].[Source_data].[reports].[VIEW_AD_funnel]  
+
 Update the query with your the desired domain and Date interval. 
 create CSV file "symptom_data.csv".
 
