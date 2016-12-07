@@ -11,7 +11,7 @@ provide training data with the following attributes:
 * brand
 * result = {0,1} (it is 1 if resolve sticks for 7 days)
 
-input data can be obtained from AD_funnel.  
+input-data can be obtained from AD_funnel.  
 [TRYQAXHIBSQL1].[Source_data].[reports].[VIEW_AD_funnel]  
 Update the query with your the desired domain and Date interval. 
 create CSV file "symptom_data.csv".
