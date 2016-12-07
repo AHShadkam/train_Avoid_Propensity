@@ -1,5 +1,5 @@
 # train_Avoid_Propensity
-create trained ML algorithm for Avoid Propensity.
+create trained ML algorithm for Avoid Propensity by running the train_domain.py code.
 ## train data
 provide training data with the following attributes:
 * domain: one of the following domains {'Refrigeration','Washer','Dryer','Cooking','LawnGarden'}
@@ -9,7 +9,7 @@ provide training data with the following attributes:
 * month = {1,2, ... ,12}
 * model
 * brand
-* 7day_stick = {0,1}
+* result = {0,1} (it is 1 if resolve sticks for 7 days)
 
 input data can be obtained from AD_funnel.  
 [TRYQAXHIBSQL1].[Source_data].[reports].[VIEW_AD_funnel]  
