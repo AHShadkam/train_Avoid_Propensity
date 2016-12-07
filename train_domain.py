@@ -8,17 +8,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.externals import joblib
 from sklearn.feature_extraction import DictVectorizer as DV
 from sklearn import preprocessing
-
-
 from nltk.stem.snowball import SnowballStemmer
 stemmer = SnowballStemmer("english")
 
-
-
 nltk.data.path.append('./nltk_data/')
-
-
-
 stopwords = nltk.corpus.stopwords.words('english')
 stopwords.extend(['ndcs', 'ndc', 'dcs'])
 # This is important in bi and trigrams!
@@ -57,7 +50,7 @@ def _tokenize_and_stem(text):
         return("")
         
 
-def create_tfidf_vectorizer(data,variable):
+	def create_tfidf_vectorizer(data,variable):
     df_symptoms = data[variable]     
     vocab = [_tokenize_and_stem(i) for i in df_symptoms]
     tfidf_vectorizer = TfidfVectorizer(max_features=3000, tokenizer = None, use_idf=True, ngram_range=(1,3))
@@ -133,8 +126,6 @@ X_train = np.hstack(( X_num, vec_x_cat, tfidf_matrix ))
 # Initialize a Random Forest classifier with 10 trees
 forest = RandomForestClassifier(n_estimators = 100) 
 forest = forest.fit( X_train, data['result'] )
-
-
 
 
 # save the trained algorithms
